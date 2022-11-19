@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Iconstoc-Vintage-Social-Html-5.ico" type="image/x-icon">
+    <title>Parágrafos</title>
+
+    <style>
+      mark {
+        background-color: rgb(238, 255, 6);
+      }
+    </style>
+
+</head>
+<body>
+
+    <h1>AULA 01</h1>
+
+    <h3>Parágrafos e quebras de linha</h3>
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito. <br>
+        Basta colocar um par de tags p e / p </p>
+
+        <p>Se precisar quebrar o texto em algum lugar especifico,
+            você pode usar a tag &lt;br&gt; 
+        </p>
+
+        <hr>
+
+        <h1>AULA 02</h1>
+
+        <p> <h2>Vamos adicionar alguns símbolos especiais</h2>
+            <br>
+            &reg;
+            &copy;
+            &trade;
+            &euro;
+            &pound;
+            &yen;
+            &cent;
+            &Delta;
+            &uarr;
+        </p>
+
+        <p> <h4>Vamos adicionar alguns emojin</h4>
+
+            &#x1f44b     
+            &#x1f60e      
+
+            <p>Colocar emoji: &#x mais o codigo do emoji</p>
+            <p>Banco de dados emoji: emojipedia.org</p>
+
+        </p>
+
+        <hr>
+      
+        <h1>AULA 03 / 04 / 05 / 06</h1>
+
+        <p>
+            <h2>Vamos adicionar imagens!?</h2>
+            <p>Para adicionar as imagens basta clicar em Ctrl + espaço.</p>
+            <br>
+            <img src="img/pizza 2.jpg" alt="pizza">
+            <img src="img/logo html5.png" alt="">
+
+            <p>Também podemos carregar imagens de link externo</p>
+            <p>Basta copiar o link http... do local do arquivo na web</p>
+            <img src="https://bognarjunior.files.wordpress.com/2014/12/1417589539_css-256.png" alt="logo css">
+            
+        </p>
+
+        <hr>
+
+        <h1>AULA 07</h1>
+        <h3>Vamos adicionar icone de favoritos na aba da pagina <br> Teste de Favicon</h3>
+        <p> Paginas indicadas: iconarchavi</p>
+        <p>Para adicionar o Favicon é necessário adicionar acima do <br>
+            Title no cabeçalho, no comando - link rel="shortcut icon" href="favicon.ico" type="image/x-icon" - </p>
+
+        <hr>
+
+        <h1>Aula 08</h1>
+        <h3>Herarquia de Titulos</h3>
+
+        <h1>ENTENDENDO PORTUGUAL</h1>
+        <h2>Introdução</h2>
+        <h3>Justificação de Temática</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Doloremque beatae repellat non, consequatur itaque facere 
+            nam inventore, fuga neque soluta repellendus aspernatur ipsum? 
+            Perferendis possimus suscipit iusto ipsum, dicta tenetur!</p>
+        <h3>Caráter excecional</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Laborum maxime sunt labore! Facilis eos ad natus qui beatae 
+            asperiores nobis animi? Dolor dolorem repudiandae adipisci 
+            explicabo voluptates ratione at praesentium?</p>
+        <h3> Perguntas de partidas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Commodi tempora sit quia asperiores quo sapiente at ea, 
+                laborum temporibus porro velit, animi quibusdam, incidunt 
+                ut impedit illum voluptate eius ratione?</p>
+
+    <hr>
+
+    <h1>Aula 09</h1>
+    <h3>Formatação de textos</h3>
+    
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em Negrito</b> usando a tag B (não semântica).</p>
+    <p>Nesta frase, tenho um <strong> termo em Negrito</strong> usando a tag STRONG (Forma e Sentindo no Negrito).</p>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semêntica).</p>
+<p>Nesta frase, temos um <em>termo em itálico</em>  usando a tag EM (semêntica).</p>
+
+<h2>Texto Marcado</h2>
+<p>Podemos criar também um <mark>texto marcado</mark> usando a tag MARK. </p>
+
+<p>Estamos criando o <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+
+<h2>Texto Deletado</h2>
+<p>Podemos marcar um <del>texto excluído</del> para indicar que ele deve ser lido, mas não considerado. usando a tag DEL (semântica).</p>
+
+<h2>Texto Inserido</h2>
+<p>Podemos marcar um <ins>texto inserido</ins> (texto sublinhado) para dar uma ênfase e indicar que ele foi adicionado. usando a tag INS (semântica). </p>
+
+<h2>Texto Sobrescrito</h2>
+<p>Para inserir coisas do tipo x<sup>20</sup>+3 usando a tag SUP</p>
+<h2>Texto Subscrito</h2>
+<p>Para inserir coisas do tipo H<sub>2</sub>O usando a tag SUB</p>
+
+<hr>
+
+<h1>Aula 10</h1>
+<h3>Citações e Códigos</h3>
+
+<p>O comando <code>document.class"getElementById"document</code> usando a tag CODE para ajustar fonte espaçada.</p>
+
+<p>Dica: Remover espaço antes das linhas de código selecione o espaço e use comando SHIFT + TAB e para adicionar selecione o espaço e use TAB</p>
+<pre>
+    <code>
+    num = int(input ('Digite um numeor'))
+    if num % 2 == 0:
+    print(f'0 número {num} é PAR)
+    else:
+    print(f'0 número {num} é ÍMPAR)
+    print('Fim do programa')
+    </code>
+</pre>
+<h2>Citações</h2>
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido. (use a tag Q para aplicar aspas)</q></p>
+
+<h3>Citação Blockquote</h3>
+<p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML5 e CSS3:</p>
+<blockquote cite="https://www.google.com.br/books/edition/_/ZyJyDwAAQBAJ?hl=pt-BR&gbpv=0">
+    HTML5 é a linguagem de marcação que amplia de forma surpreendente as funcionalidades da HTML, alterando de maneira
+    significativa como você desenvolve para a web. Trata-se da mais extensa especificação...
+</blockquote>
+
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="Linguagem de Marcação de HiperTexto">HTML</abbr> e <abbr title="Folhas de Estilo em Cascatas">CSS</abbr>. Estou adorando! (Usando a tag ABBR para Abreviações)</p>
+
+<hr>
+
+<h1>Aula 11</h1>
+<h3>Listas OL e UL</h3>
+
+<h3>Listas Ordenadas</h3>
+
+   <ol type="i">
+        <li>Acordar
+        <li>Ligar para joão
+        <li>Tomar café
+        <li>escovar dentes
+        <li>ir para faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>jantar</li>
+        <li>dormi</li>
+   </ol>
+    
+<h3>Listas Não Ordenadas</h3>
+<p>type: square / disc / circle</p>
+   <ul type="disc">
+       <li>Pão</li>
+       <li>Leite</li>
+       <li>Tomate</li>
+       <li>Manteiga</li>
+       <li>Arroz</li>
+       <li>Feijão</li>
+   </ul>
+
+<h3>Listas Mistas e de Definições</h3>
+<h4>Minhas Linguagens favoritas</h4>
+
+<ol>
+    <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+<br>
+    <li>Novas</li>
+        <ol type="a">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+<br>
+        <li>Jogos favoritos</li>
+        <ol>
+            <li>NES</li>
+                <ol>
+                    <li>Mario Car</li>
+                    <li>Top gear</li>
+                </ol>
+            <li>PS2</li>
+                <ol>
+                    <li>Bomba Patch</li>
+                    <li>Medalha de Honra</li>
+                </ol>
+         </ol>
+</ol>
+
+<h3>Listas de Definições</h3>
+<p>lista de definições para item</p> 
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para criação de conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação de conteúdo de um site</dd>
+</dl>
+
+<hr>
+
+<h1>Aula 12</h1>
+<h3>Links e Âncoras em HTML5</h3>
+
+<h3>Usando links Externos</h3>
+
+<p>Dica: Após a tag de link "A Href " usar a tag TARGET="_blank" para abrir link em nova pagina</p>
+
+<blockquote>
+    <p>Você pode acessar meu <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositório público no GitHub Gustavo Guanabara</a></p>
+    
+    <p>O que é SEO (Search Engine Optimization): o guia completo para você conquistar o topo do Google. Veja no link <a href="https://rockcontent.com/br/blog/o-que-e-seo/" target="_blank" rel="external">SEO</a></p>
+</blockquote>
+
+<h3>Usando Links Interno</h3>
+
+<p>Está é a primeira pagina do site, se você quiser acessar minha <a href="pag002.html" rel="next">Pagina 02</a></p>
+
+<p>Está é a primeira pagina do site, se você quiser acessar minha <a href="noticias/pag003.html" rel="next">Pagina 03</a></p>
+
+<p>Está pagina é um oferecimento de <a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">HOSTNET</a></p>
+
+<p>Você pode acessar nossa pagina de <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf#start-of-content" target="_blank" rel="external">conteúdos</a></p>
+
+<hr>
+
+<h1>Aula 13</h1>
+<h3>Links de dowloads</h3>
+
+    <ul>
+        <li><a href="dowloads/Livro - Imagens e Favicon.pdf" download="Livro - Imagens e Favicon.pdf" type="application/pdf">Baixar Livro em PDF</a></li>
+
+        <li><a href="dowloads/Livro - FliqloScr.zip" type="application/zip" >Baixar Livro em ZIP</a></li>
+    </ul>
+<p>tag para botão de dowloads em ZIP é a tag de - a href="localdoarquivo" type="application/zip" - </p>
+
+<hr>
+
+<h1>Aula 14</h1>
+<h3>Imagens dinâmicas</h3>
+
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+<p>Tag de imagens dinâmicas: PICTURES - source media="(max-width: 1050px)" srcset="img/p.png" type="image/png"<br>
+ordem de imagens na programação: 
+    <ol type="1">
+        <li>Imagem Pequena</li>
+        <li>imagem Media</li>
+        <li>Imagem Grande</li>
+    </ol type="1">
+</p>
+
+<picture>
+
+    <source media="(max-width: 750px)" srcset="img/p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="img/M.png" type="image/png">
+    <img src="img/G.png" alt="imagem flexível">
+
+</picture>
+
+<hr>
+
+<h1>Aula 15</h1>
+<h3>Colocando audio no seu site</h3>
+
+<p><em>Dicas de musicas sem direitos autorais:  Youtube/<a href="https://studio.youtube.com/channel/UCsQlVD7KwwbjUJN5h38bTwQ/music" target="_blank" rel="external">Youtube studio</a>/Biblioteca de audio/Atribuição não é necessária</em></p>
+
+
+<h2>Reproduzindo Audio</h2>
+<p>Vamos aprender a reproduzir audio no html5 <br>
+Tag para inserir audio: audio src="audio/Ringside - Dyalla.mp3" controls autoplay</p>
+
+<audio src="audio/Ringside - Dyalla.mp3" controls autoplay></audio>
+
+<p>Tipos de audios extras: MP3 / WAV / OGG <br>
+    outra maneira de colocar o audio: <br>
+
+    <strong>audio preload="metadata" controls loop</strong> <br>
+
+        <em>
+            • source src="audio/Ringside - Dyalla.mp3" type="audio/mpeg" (recomendado)<br>
+            • source src="audio/Ringside - Dyalla.ogg" type="audio/ogg" (recomendado) <br>
+            • source src="audio/Ringside - Dyalla.wav" type="audio/wav"<br>
+        </em>
+
+<audio preload="metadata" controls loop>
+
+    <source src="audio/Ringside - Dyalla.mp3" type="audio/mpeg">
+    <source src="audio/Ringside - Dyalla.ogg" type="audio/ogg">
+    <source src="audio/Ringside - Dyalla.wav" type="audio/wav">
+
+</audio>
+
+<hr>
+
+<h1>Aula 16</h1>
+<h3>Formatos de videos em sites</h3>
+
+<p>Dica de videos sem direitos autorais: <br>
+<a href="https://www.pexels.com/pt-br/videos/" target="_blank" rel="external">Pexels</a></p>
+
+<p><strong>Colocando videos no site com hospedagem local no meu servidor:</strong></p>
+
+<p><strong>Tags de video: </strong><br>
+
+        <em>
+            video width="500" poster="img/capa video.jpg" controls <br>
+            source src="videos/Pexels Videos convertido.mp4" type="video/mp4"><br>
+            source src="videos/Pexels Videos convertido.webm" type="video/webm"><br>
+            source src="videos/Pexels-Videos-1409899.ogv" type="video/ogv"><br>
+            video
+        </em>
+</p>
+
+
+<video width="560" poster="img/capa video.jpg" controls loop>
+    <source src="videos/Pexels Videos convertido.mp4" type="video/mp4">
+    <source src="videos/Pexels Videos convertido.webm" type="video/webm">
+    <source src="videos/Pexels-Videos-1409899.ogv" type="video/ogv">
+
+</video>
+
+<p><strong>Colocando videos no site com hospedagem em servidor externo:</strong></p>
+<p><li> Youtube / compartilhar / Incorporar</li></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zrIfhUVB_3o" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+<p><li>Video do Vimeo</li></p>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe
+        src="https://player.vimeo.com/video/191894507?h=e15bf4bcf0&autoplay=1&loop=1&color=ff0179"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/191894507">Animation Reel</a> from <a href="https://vimeo.com/shaoyuhsu">Shao YU Hsu</a>
+    on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+
+</body>
+</html>

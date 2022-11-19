@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+</head>
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    div > .menu {
+        display: none;
+    }
+
+    div:hover > .menu {
+        display: block;
+        color: rgb(80, 1, 1);
+        background-color: rgba(255, 0, 0, 0.185);
+    }
+
+    .itens {
+        display: block;
+        color: blue;
+    }
+
+    div:hover {
+        color: red;
+    }
+
+
+    
+</style>
+<body>
+    <h1>Exemplo de hover</h1>
+
+<h2>Passe o mouse sobre o cardápio abaixo</h2>
+<div>
+    menu
+    <div class="menu">
+        <ul class="itens">
+            <a href="pseudoclasse.html" target="_blank" rel="external">
+                <li>Massas</li>
+            </a>
+            <li>Salgados</li>
+            <li>Bebidas</li>
+            <li>Acréscimos</li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
